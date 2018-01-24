@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915320667428",
+    "firebase_url": "https://registrationpage-ced14.firebaseio.com",
+    "project_id": "registrationpage-ced14",
+    "storage_bucket": "registrationpage-ced14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915320667428:android:33da0ab2120af828",
+        "android_client_info": {
+          "package_name": "com.example.dell.registrationpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915320667428-2m8a0oaklffgp6ocvmkqk5r63mpqn0fk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.registrationpage",
+            "certificate_hash": "b5d96f7f32462596903ba7a56903192e59f01c01"
+          }
+        },
+        {
+          "client_id": "915320667428-p32e5dkal2qogdd6m8csn7u1be4iddst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9XPFi1x4K6P64XRc-aohz5TZpc8iMhrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915320667428-p32e5dkal2qogdd6m8csn7u1be4iddst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

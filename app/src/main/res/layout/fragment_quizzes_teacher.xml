@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.registrationpage.Quizzes_Teacher"
+    android:background="@color/background_color">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <ListView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_quiz_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

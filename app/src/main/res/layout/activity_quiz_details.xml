@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.example.dell.registrationpage.QuizDetails">
+
+    <EditText
+        android:id="@+id/quizname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Quiz name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/quizDate"
+        android:layout_below="@+id/quizname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Quiz Date"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/quiztime"
+        android:layout_below="@+id/quizDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="Quiz name"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/noOfQuestion"
+        android:layout_below="@+id/quiztime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="No of Questions"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+
+
+    <Button
+        android:id="@+id/writeQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noOfQuestion"
+        android:layout_marginTop="50dp"
+        android:text="write Question"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

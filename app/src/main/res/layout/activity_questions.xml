@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.example.dell.registrationpage.Questions">
+
+    <TextView
+        android:id="@+id/nameofquiz"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Name of quiz"
+        android:gravity="center"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofquiz"
+        android:layout_marginTop="50dp"
+        android:hint="Eneter Question..."
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/opt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ques"
+        android:layout_marginTop="15dp"
+        android:hint="Option1"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/opt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt1"
+        android:layout_marginTop="15dp"
+        android:hint="Option2"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/opt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt2"
+        android:layout_marginTop="15dp"
+        android:hint="Option3"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/opt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt3"
+        android:layout_marginTop="15dp"
+        android:hint="Option4"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/correctans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt4"
+        android:layout_marginTop="15dp"
+        android:hint="Answer"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correctans"
+        android:layout_marginTop="20dp"
+        android:text="write next question"/>
+</RelativeLayout>

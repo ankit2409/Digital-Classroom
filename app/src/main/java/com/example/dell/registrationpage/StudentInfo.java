@@ -7,20 +7,28 @@ package com.example.dell.registrationpage;
 public class StudentInfo {
     private String name;
     private String email;
-    private String uid;
+    private String id;
     private String password;
     private String batch;
     private String year;
     private String department;
+    private int score;
+    private String image;
 
-    public StudentInfo(String name, String email, String uid, String password, String batch, String year, String department) {
+    public StudentInfo() {
+    }
+
+    public StudentInfo(String name, String email, String id, String password, String batch, String year, String department, int score, String image) {
         this.name = name;
         this.email = email;
-        this.uid = uid;
+
+        this.id = id;
         this.password = password;
         this.batch = batch;
         this.year = year;
         this.department = department;
+        this.score=score;
+        this.image=image;
     }
 
     public String getName() {
@@ -39,12 +47,12 @@ public class StudentInfo {
         this.email = email;
     }
 
-    public String getUid() {
-        return uid;
+    public String getId() {
+        return id;
     }
 
-    public void setUid(String uid) {
-        this.uid = uid;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getPassword() {
@@ -77,6 +85,21 @@ public class StudentInfo {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
 

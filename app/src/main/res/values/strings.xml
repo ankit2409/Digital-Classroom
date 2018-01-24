@@ -16,11 +16,13 @@
     <string name="Department">Department</string>
     <string name="id">ID</string>
     <string name="signUp">SIGN UP</string>
+    <string name="verify">VERIFY</string>
     <string name="already_user">Already have Account? Login here.</string>
     <string name="submit">SUBMIT</string>
     <string name="back">BACK</string>
 
     <string-array name="year">
+        <item>--Select Year--</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -28,13 +30,15 @@
     </string-array>
 
     <string-array name="batch">
-        <item>T1</item>
-        <item>T2</item>
-        <item>T3</item>
-        <item>T4</item>
+        <item>--Select Batch--</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
     </string-array>
 
     <string-array name="department">
+        <item>--Select Department--</item>
         <item>Computer Science</item>
         <item>Electronics</item>
         <item>Electrical</item>
@@ -44,5 +48,8 @@
         <item>Metallurgy</item>
         <item>Architecture</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

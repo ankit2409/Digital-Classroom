@@ -8,4 +8,7 @@
     <color name="black">#000000</color>
     <color name="white_greyish">#EEEEEE</color>
     <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="score_color">#ff0000</color>
+    <color name="textColorQuizName">#2B3D4D</color>
+    <color name="textColorQuizDetails">#B4BAC0</color>
 </resources>
