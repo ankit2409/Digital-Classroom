@@ -1,4 +1,5 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,15 +7,19 @@
     android:background="@color/background_color">
 
     <!-- TODO: Update blank fragment layout -->
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:fillViewport="true"
-        android:overScrollMode="never"
-        android:scrollbars="none" >
-        <!-- TODO: Update blank fragment layout -->
-
-    </ScrollView>
 
 
-</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        app:fabSize="normal"
+        android:src="@drawable/ic_add_black_24dp"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+</RelativeLayout>

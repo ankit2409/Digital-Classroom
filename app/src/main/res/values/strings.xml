@@ -20,6 +20,7 @@
     <string name="already_user">Already have Account? Login here.</string>
     <string name="submit">SUBMIT</string>
     <string name="back">BACK</string>
+    <string name="what_to_upload">SELECT ONE</string>
 
     <string-array name="year">
         <item>--Select Year--</item>
@@ -47,6 +48,12 @@
         <item>Mechanical</item>
         <item>Metallurgy</item>
         <item>Architecture</item>
+    </string-array>
+
+    <string-array name="what_to_upload">
+        <item>--Please Select One--</item>
+        <item>Upload</item>
+        <item>Write</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->

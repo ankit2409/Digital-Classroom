@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.example.dell.registrationpage.CreateAssignment">
+
+    <Button
+        android:id="@+id/writeassign"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:onClick="OnClick"
+        android:text="Write Text" />
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/writeassign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:onClick="OnClick"
+        android:text="upload image from gallery" />
+
+    <Button
+        android:id="@+id/uploadpdf"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:layout_below="@id/uploadimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:onClick="OnClick"
+        android:text="upload a file" />
+
+
+</RelativeLayout>

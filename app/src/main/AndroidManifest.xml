@@ -20,10 +20,12 @@
         </activity>
         <activity android:name=".TeacherDashboard" />
         <activity android:name=".QuizDetails" />
-        <activity android:name=".Questions"/>
-        <activity android:name=".StudentDash"/>
-        <activity android:name=".PersonalDetailsActivity_Student">
-        </activity>
+        <activity android:name=".Questions" />
+        <activity android:name=".StudentDash" />
+        <activity android:name=".PersonalDetailsActivity_Student" />
+        <activity android:name=".CreateAssignment" />
+        <activity android:name=".UploadImage" />
+        <activity android:name=".UploadFile"></activity>
     </application>
 
 </manifest>

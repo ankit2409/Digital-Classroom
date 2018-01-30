@@ -1,12 +1,18 @@
 package com.example.dell.registrationpage;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 
 /**
@@ -26,6 +32,7 @@ public class Assignments_Teacher extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    FloatingActionButton floatingActionButton;
 
     private OnFragmentInteractionListener mListener;
 
@@ -61,10 +68,19 @@ public class Assignments_Teacher extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
+        View rootView=inflater.inflate(R.layout.fragment_assignments_teacher, container, false);
+        floatingActionButton=(FloatingActionButton)rootView.findViewById(R.id.floatingActionButton);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),CreateAssignment.class));
+            }
+        });
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_assignments_teacher, container, false);
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

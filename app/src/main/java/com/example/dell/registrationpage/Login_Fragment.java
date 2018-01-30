@@ -155,6 +155,7 @@ public class Login_Fragment extends Fragment implements View.OnClickListener {
         //Pattern p=Pattern.compile(Utils.regEx);
         //Matcher m=p.matcher(getEmail);
         if(TextUtils.isEmpty(getEmail)||TextUtils.isEmpty(getPassword)){
+            progressDialog.dismiss();
             new Customtoast().Show_Toast(getActivity(),view,"Empty credentials");
         }
         /*else if(!m.find()){
